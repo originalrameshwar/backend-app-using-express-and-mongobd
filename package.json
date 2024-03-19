@@ -1,0 +1,37 @@
+{
+  "name": "backend-with-express",
+  "version": "1.0.0",
+  "description": "todo app using express and mongodb backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/originalrameshwar/backend-app-using-express-and-mongobd.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Rameshwar Susar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/originalrameshwar/backend-app-using-express-and-mongobd/issues"
+  },
+  "homepage": "https://github.com/originalrameshwar/backend-app-using-express-and-mongobd#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
